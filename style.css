@@ -1,9 +1,13 @@
+
 *{
     margin: 0px;
     padding: 0px;
 }
+/* .element-style{
+background-image:url("./dark-galaxy-in-universe-2ew15pvlfpmyfazp.jpg") ;
+} */
 .bg-img{
-background-image: url("./dark-galaxy-in-universe-2ew15pvlfpmyfazp.jpg");
+background-image: url("./dark-galaxy-in-universe-2ew15pvlfpmyfazp.jpg") !important;
 height: 550px;
 width: 100%;   
 background-repeat: no-repeat;
@@ -15,7 +19,7 @@ background-size: cover;
     height: 550px;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .logo{
     height: 45px;
@@ -28,4 +32,38 @@ background-size: cover;
     font-weight: 900;
     text-transform: uppercase;
     margin-right: 15px;
+}
+.title{
+    margin-top: 200px;
+    text-align: center;
+
+}
+.titleMain{
+    color: rgb(255, 255, 255);
+    font-weight: 3300px;
+    font-size: 45px;
+}
+.icon{
+    color:blue ;
+    font-size: 35px;
+    border-radius: 40%;
+    font-weight: 600;
+    padding: 15px;
+    border: 1px solid blue;
+}
+.card{
+    box-shadow: 4px 4px 10px rgb(40, 40, 66);
+    height: 350px;
+    width: 100%;
+    padding: 13px;
+}
+.web{
+    text-align: center;
+    color: blue;
+    font-size: 20px ;
+}
+.text{
+    color: gray;
+    padding: 3 px;
+    text-align: justify;
 }
