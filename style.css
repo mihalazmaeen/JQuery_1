@@ -22,3 +22,10 @@ background-size: cover;
     width: 75px;
     border-radius: 30%;
 }
+.nav-link{
+    color: white !important;
+    font-size: 1.6 rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
